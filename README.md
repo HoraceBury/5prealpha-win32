@@ -21,15 +21,15 @@ I hit rebuild solution with Debug and Win32 selected.
 
 I then copied the following files from the sphinxbase\bin\Debug\Win32 folder into the pocketsphinx\bin\Debug\Win32 folder:
 
-sphinx_cepview.exe
-sphinx_fe.exe
-sphinx_jsgf2fsg.exe
-sphinx_lm_convert.exe
-sphinx_pitch.exe
-sphinx_seg.exe
-sphinxbase.dll
-sphinxbase.dll
-sphinxbase.lib
+- sphinx_cepview.exe
+- sphinx_fe.exe
+- sphinx_jsgf2fsg.exe
+- sphinx_lm_convert.exe
+- sphinx_pitch.exe
+- sphinx_seg.exe
+- sphinxbase.dll
+- sphinxbase.dll
+- sphinxbase.lib
 
 I then opened powershell and navigated to the pocketsphinx solution folder and used the following command:
 
