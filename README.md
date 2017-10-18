@@ -34,3 +34,6 @@ sphinxbase.lib
 I then opened powershell and navigated to the pocketsphinx solution folder and used the following command:
 
 C:\git\5prealpha-win32\pocketsphinx> .\bin\Debug\Win32\pocketsphinx_continuous.exe -inmic yes -hmm .\model\en-us\en-us\ -lm .\model\en-us\en-us.lm.bin -dict .\model\en-us\cmudict-en-us.dict
+
+This SO post indicates how to turn off the verbose logging on the command line:
+https://stackoverflow.com/questions/17825820/how-do-i-turn-off-e-info-in-pocketsphinx
